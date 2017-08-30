@@ -12,6 +12,7 @@
 		0097743B1F567D9700E1CF7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009774391F567D9700E1CF7B /* Main.storyboard */; };
 		0097743D1F567D9700E1CF7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0097743C1F567D9700E1CF7B /* Assets.xcassets */; };
 		009774401F567D9700E1CF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0097743E1F567D9700E1CF7B /* LaunchScreen.storyboard */; };
+		009774491F56E2DF00E1CF7B /* MyUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009774481F56E2DF00E1CF7B /* MyUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0097743C1F567D9700E1CF7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0097743F1F567D9700E1CF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009774411F567D9700E1CF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009774481F56E2DF00E1CF7B /* MyUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		009774341F567D9700E1CF7B /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				009774471F56E2A900E1CF7B /* View */,
 				009774351F567D9700E1CF7B /* AppDelegate.swift */,
 				009774371F567D9700E1CF7B /* ViewController.swift */,
 				009774391F567D9700E1CF7B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				009774411F567D9700E1CF7B /* Info.plist */,
 			);
 			path = swoosh;
+			sourceTree = "<group>";
+		};
+		009774471F56E2A900E1CF7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				009774481F56E2DF00E1CF7B /* MyUIButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				009774381F567D9700E1CF7B /* ViewController.swift in Sources */,
+				009774491F56E2DF00E1CF7B /* MyUIButton.swift in Sources */,
 				009774361F567D9700E1CF7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
