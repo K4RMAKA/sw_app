@@ -41,4 +41,10 @@ class LeagueVC: UIViewController {
         performSegue(withIdentifier: "SkillVCSegue", sender: self)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC{
+            skillVC.player = player
+        }
+    }
+    
 }
